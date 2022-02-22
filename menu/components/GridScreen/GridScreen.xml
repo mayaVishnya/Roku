@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8">
+<component name="GridScreen" extends="Group" initialFocus="LabelList">
+    <script type="text/brightscript" uri="GridScreen.brs" />
+    <interface>
+        <field id="content" type="node" alias="LabelList.content"/>
+    </interface>>
+    <children>
+        <LabelList
+            id="menu"
+            translation="[0,0]"
+            itemSize="[440,50]">
+            <ContentNode id="menuContent" role="content">
+                <ContentNode title="My Account"/>
+                <ContentNode title="About"/>
+                <ContentNode title="Terms of Service"/>
+                <ContentNode title="Legal Statement"/>
+                <ContentNode title="Privacy Policy"/>
+                <ContentNode title="Copyright"/>
+            </ContentNode>
+        </LabelList>
+    </children>>
+</component>>
